@@ -1,7 +1,7 @@
 import subprocess
 
 def write_config(p_file,username, token):
-  with open('processanalysis/seafile/base_config.conf') as f:
+  with open('seafileclient/base_config.conf') as f:
     content = f.read()
 
   content = content.replace("###USERNAME###",username)
