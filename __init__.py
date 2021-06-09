@@ -1,1 +1,1 @@
-from processanalysis.seafile.functions import *
+from functions import *
